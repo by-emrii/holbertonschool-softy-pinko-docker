@@ -14,7 +14,7 @@ RUN rm /usr/lib/python*/EXTERNALLY-MANAGED
 RUN pip3 install flask
 
 # install flask CORS
-RUN pip3 flask-cors
+RUN pip3 install flask-cors
 
 # set working dir
 WORKDIR /app
